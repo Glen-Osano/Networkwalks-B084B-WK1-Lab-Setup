@@ -67,7 +67,7 @@ This virtual machine serves as an isolated testbed for hands-on learning in cybe
 2. Ran the setup wizard, accepting default feature selections and network driver installations.
 3. Successfully launched VirtualBox Manager.
 
-![](image-1-virtualbox-download.png)
+![](screenshot1.png)
 
 ---
 
@@ -76,7 +76,7 @@ This virtual machine serves as an isolated testbed for hands-on learning in cybe
 1. Navigated to the official Kali Linux website (`kali.org`).
 2. Selected the pre-built Virtual Machine image (or ISO installer) tailored for VirtualBox.
 
-![](image-2-kali-download.png)
+![](screenshot2.png)
 
 ---
 
@@ -88,17 +88,16 @@ This virtual machine serves as an isolated testbed for hands-on learning in cybe
    - **Processors:** Allocated 2 CPU cores.
    - **Network:** Set to NAT for standard outbound internet access.
 
-![](image-3-kali-vm-settings.png)
 
 ---
 
 ### Step 4: Launch Kali Linux & Initial System Check
 
 1. Powered on the Kali Linux virtual machine.
-2. Logged into the deskop environment using default credentials (`kali` / `kali`).
+2. Logged into the desktop environment using default credentials (`kali` / `kali`).
 3. Opened the terminal to verify network connectivity and system uptime.
 
-![](image-4-kali-desktop-boot.png)
+![](screenshot4.png)
 
 ---
 
@@ -117,3 +116,10 @@ To confirm that the virtual machine setup was completed successfully, the follow
 $ ip a
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+
+💡 Key Learnings
+Virtualization Fundamentals: Understood how a hypervisor (VirtualBox) abstracts host hardware to run guest operating systems independently.
+
+Resource Allocation: Learned how to appropriately allocate system RAM and CPU threads to balance guest performance with host stability.
+
+OS Provisioning: Gained practical experience deploying security-focused Linux distributions in virtual environments.
